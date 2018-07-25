@@ -1,0 +1,290 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+strong {
+  color: hsl(211, 100%, 50%);
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #333;
+  font-family: "Roboto";
+}
+
+header, section {
+  padding: 20px 20px 0 20px;
+}
+
+.page {
+  width: 21cm;
+  height: 29.7cm;
+  background-color: white;
+  margin: auto;
+}
+
+div > h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+h1, h2, h3, h4, h5, p, span, cite {
+  margin: 0;
+  padding: 0;
+}
+
+.ds > strong {
+  color: black;
+  font-weight: bold;
+}
+
+.ds {
+  font-family: "3ds";
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 123, 255, 0), rgba(0, 123, 255, 0.75), rgba(0, 123, 255, 0));
+}
+
+/*HEADER */
+
+header {
+  height: 180px;
+  background-color: #007bff;
+  border-bottom: 2px solid #ffffffb8;
+}
+
+header .left, header .middle, header .right {
+  float: left;
+  height: 100%;
+  margin: auto;
+}
+
+header .left {
+  text-align: left;
+  width: 30%;
+  color: #EEE;
+}
+
+header div p {
+  margin-bottom: 3px;
+}
+
+header .right {
+  text-align: right;
+  width: 30%;
+  color: #EEE;
+  margin-top: 50px;
+}
+
+header .middle {
+  text-align: center;
+  width: 40%;
+}
+
+.profil {
+  border-radius: 100%;
+  width: 120px;
+  height: 112px;
+  margin-top: 13px;
+  border-bottom: 1px solid #007bff;
+  border-left: 1px solid #007bff;
+  border-right: 1px solid #007bff
+}
+
+h1.title {
+  line-height: 42px;
+  padding-top: 10px;
+  color: white;
+  font-family: "Lobster 1.4"
+}
+
+cite.accroche {
+  color: #ffffffb8;
+  line-height: 14px;
+  font-style: italic;
+  font-size: 14px;
+  display: block;
+}
+
+p.name {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* SECTION */
+
+section {
+  margin-top: 42px;
+}
+
+section h1 {
+  text-decoration: underline;
+  color: #007bff;
+}
+
+section .left {
+  min-height: 380px;
+}
+
+section .right {
+  min-height: 300px;
+}
+
+section .left {
+  padding-right: 20px;
+  width: calc( 65% - 21px );
+  float: left;
+  border-right: 1px solid #007bff;
+}
+
+section .right {
+  width: 35%;
+  float: left;
+}
+
+section .competence {
+  text-align: center;
+}
+
+.formations.left {
+  padding-top: 30px;
+}
+
+.formation, .competence, .experience {
+  margin-bottom: 20px;
+}
+
+.experience {
+  text-align: justify;
+}
+
+.formation > h2, .experience > h2 {
+  color: #007bff;
+  font-size: 16px;
+}
+
+.experience > h3 {
+  font-size: 14px;
+  color: #007bff;
+}
+
+.formation > h2 > span, .experience > h3 > span {
+  float: right;
+}
+
+.formation > h2 > span {
+  font-size: 14px;
+}
+
+.experience > img {
+  margin-right: 5px;
+  float: left;
+  width: 36px;
+  height: 36px;
+  border-radius: 100%;
+}
+
+.formation > p, .experience > p {
+  margin-top: 3px;
+}
+
+p.outils {
+  font-size: 14px;
+  color: #666;
+}
+
+.apropos {
+  text-align: center;
+  margin-top: -80px;
+}
+
+.apropos p {
+  padding: 5px;
+  font-size: 14px;
+}
+
+.langues, .sports {
+  border: 2px solid #007bff;
+  padding: 10px;
+  border-radius: 0 25px 25px 25px;
+  width: 160px;
+  margin: auto;
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.passions, .cultures {
+  border: 2px solid #007bff;
+  padding: 10px;
+  border-radius: 25px 0px 25px 25px;
+  width: 160px;
+  margin: auto;
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.langues > div, .sports > div {
+  position: absolute;
+  left: -10px;
+  top: -10px;
+  width: 42px;
+  height: 22px;
+  background-color: white;
+}
+
+.passions > div, .cultures > div {
+  position: absolute;
+  left: 150px;
+  top: -10px;
+  width: 42px;
+  height: 22px;
+  background-color: white;
+}
+
+.langues > div > i, .passions > div > i, .sports > div > i, .cultures > div > i {
+  font-size: 20px;
+}
+
+/* ICONS */
+
+i.fas.fa-at {
+  margin-left: -3px;
+}
+
+i.fas.fa-mobile-alt {
+  margin-right: 3px;
+}
+
+/* PROGRESS BAR */
+
+.progress {
+  display: -ms-flexbox;
+  display: flex;
+  width: 160px;
+  height: 5px;
+  margin: auto;
+  margin-top: 5px;
+  border: 1px solid RGBA(0, 0, 0, 0.3);
+  background-color: #e9ecef;
+  border-radius: .25rem;
+}
+
+.progress-bar {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  background-color: #007bff;
+  transition: width .6s ease;
+}
