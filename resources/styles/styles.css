@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
 }
@@ -14,7 +15,8 @@ body {
   font-family: "Roboto";
 }
 
-header, section {
+header,
+section {
   padding: 20px 20px 0 20px;
 }
 
@@ -30,7 +32,14 @@ div > h1 {
   margin-bottom: 30px;
 }
 
-h1, h2, h3, h4, h5, p, span, cite {
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+span,
+cite {
   margin: 0;
   padding: 0;
 }
@@ -47,7 +56,12 @@ h1, h2, h3, h4, h5, p, span, cite {
 hr {
   border: 0;
   height: 1px;
-  background-image: linear-gradient(to right, rgba(0, 123, 255, 0), rgba(0, 123, 255, 0.75), rgba(0, 123, 255, 0));
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 123, 255, 0),
+    rgba(0, 123, 255, 0.75),
+    rgba(0, 123, 255, 0)
+  );
 }
 
 /*HEADER */
@@ -58,7 +72,9 @@ header {
   border-bottom: 2px solid #ffffffb8;
 }
 
-header .left, header .middle, header .right {
+header .left,
+header .middle,
+header .right {
   float: left;
   height: 100%;
   margin: auto;
@@ -67,7 +83,7 @@ header .left, header .middle, header .right {
 header .left {
   text-align: left;
   width: 30%;
-  color: #EEE;
+  color: #eee;
 }
 
 header div p {
@@ -77,7 +93,7 @@ header div p {
 header .right {
   text-align: right;
   width: 30%;
-  color: #EEE;
+  color: #eee;
   margin-top: 50px;
 }
 
@@ -88,19 +104,19 @@ header .middle {
 
 .profil {
   border-radius: 100%;
-  width: 120px;
-  height: 112px;
+  width: 100px;
+  height: 96px;
   margin-top: 13px;
   border-bottom: 1px solid #007bff;
   border-left: 1px solid #007bff;
-  border-right: 1px solid #007bff
+  border-right: 1px solid #007bff;
 }
 
 h1.title {
   line-height: 42px;
   padding-top: 10px;
   color: white;
-  font-family: "Lobster 1.4"
+  font-family: "Lobster 1.4";
 }
 
 cite.accroche {
@@ -128,17 +144,13 @@ section h1 {
   color: #007bff;
 }
 
-section .left {
-  min-height: 380px;
-}
-
 section .right {
   min-height: 300px;
 }
 
 section .left {
   padding-right: 20px;
-  width: calc( 65% - 21px );
+  width: calc(65% - 21px);
   float: left;
   border-right: 1px solid #007bff;
 }
@@ -156,7 +168,9 @@ section .competence {
   padding-top: 30px;
 }
 
-.formation, .competence, .experience {
+.formation,
+.competence,
+.experience {
   margin-bottom: 20px;
 }
 
@@ -164,7 +178,8 @@ section .competence {
   text-align: justify;
 }
 
-.formation > h2, .experience > h2 {
+.formation > h2,
+.experience > h2 {
   color: #007bff;
   font-size: 16px;
 }
@@ -174,7 +189,8 @@ section .competence {
   color: #007bff;
 }
 
-.formation > h2 > span, .experience > h3 > span {
+.formation > h2 > span,
+.experience > h3 > span {
   float: right;
 }
 
@@ -190,7 +206,8 @@ section .competence {
   border-radius: 100%;
 }
 
-.formation > p, .experience > p {
+.formation > p,
+.experience > p {
   margin-top: 3px;
 }
 
@@ -201,7 +218,7 @@ p.outils {
 
 .apropos {
   text-align: center;
-  margin-top: -80px;
+  margin-top: -140px;
 }
 
 .apropos p {
@@ -209,7 +226,8 @@ p.outils {
   font-size: 14px;
 }
 
-.langues, .sports {
+.langues,
+.sports {
   border: 2px solid #007bff;
   padding: 10px;
   border-radius: 0 25px 25px 25px;
@@ -219,7 +237,8 @@ p.outils {
   margin-bottom: 15px;
 }
 
-.passions, .cultures {
+.passions,
+.cultures {
   border: 2px solid #007bff;
   padding: 10px;
   border-radius: 25px 0px 25px 25px;
@@ -229,7 +248,8 @@ p.outils {
   margin-bottom: 15px;
 }
 
-.langues > div, .sports > div {
+.langues > div,
+.sports > div {
   position: absolute;
   left: -10px;
   top: -10px;
@@ -238,7 +258,8 @@ p.outils {
   background-color: white;
 }
 
-.passions > div, .cultures > div {
+.passions > div,
+.cultures > div {
   position: absolute;
   left: 150px;
   top: -10px;
@@ -247,7 +268,10 @@ p.outils {
   background-color: white;
 }
 
-.langues > div > i, .passions > div > i, .sports > div > i, .cultures > div > i {
+.langues > div > i,
+.passions > div > i,
+.sports > div > i,
+.cultures > div > i {
   font-size: 20px;
 }
 
@@ -272,7 +296,7 @@ i.fas.fa-mobile-alt {
   margin-top: 5px;
   border: 1px solid RGBA(0, 0, 0, 0.3);
   background-color: #e9ecef;
-  border-radius: .25rem;
+  border-radius: 0.25rem;
 }
 
 .progress-bar {
@@ -286,5 +310,5 @@ i.fas.fa-mobile-alt {
   text-align: center;
   white-space: nowrap;
   background-color: #007bff;
-  transition: width .6s ease;
+  transition: width 0.6s ease;
 }
